@@ -30,7 +30,7 @@ TV is on
 TV is off
 Radio is on
 
-## 📐 UML Diagram
+## UML Diagram
 ```text
                 +-------------------+
                 |   Device (interface) |
