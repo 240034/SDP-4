@@ -7,11 +7,17 @@ The main purpose of the pattern is to **decouple abstraction from implementation
 ## Project Structure
 src/
 └── bridge/
+
 ├── Device.java # Device abstraction (interface)
+
 ├── TV.java # Device implementation (TV)
+
 ├── Radio.java # Device implementation (Radio)
+
 ├── Remote.java # Abstract remote controller
+
 ├── BasicRemote.java # Concrete remote controller
+
 └── BridgeDemo.java # Client code (main)
 
 ## How to Run
@@ -20,12 +26,9 @@ src/
 3. Run the `BridgeDemo` class.  
 
 Example console output:
-```TV is on
+TV is on
 TV is off
-Radio is on```
-
-
----
+Radio is on
 
 ## 📐 UML Diagram
 ```text
